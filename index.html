@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>kingplay video streamer</title>
+    
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="https://dpraeabp1kcfq.cloudfront.net/Top 25 Most Badass Superhero Scenes in Movies.mp4" type="video/mp4">
+        </video>
+    
+   
+    <div class="content">
+        <h2 class="fontmj">INTRODUCING THE KINGPLAY VIDEO STREAMER<br>GET STREAMING IN JUST A FEW CLICKS!</h1>
+        <a href="#movies-list " class="fontmj">Watch Now</a>
+    </div>
+    </div>
+    <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/fav icon.png"/>
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#movies-list">Movies</a></li>
+            <li><a href="#movies-list">Stream</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#movies">Feature</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                transition: background-color 0.5s ease, color 0.5s ease;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff; /* Light mode background color */
+                color: #333333; /* Light mode text color */
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .toggle {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+            }
+            .toggle input {
+                display: none;
+            }
+            .toggle label {
+                cursor: pointer;
+                font-size: 24px;
+            }
+            .toggle label::before {
+                content: "☀️";
+                margin-right: 5px;
+            }
+            .toggle input:checked + label::before {
+                content: "🌙";
+            }
+        
+            /* Dark mode styles */
+            body.dark-mode {
+                background-color: #000000; /* Dark mode background color */
+                color: #000000; /* Dark mode text color */
+            }
+        </style>
+        </head>
+        <body>
+        <div class="toggle">
+            <input type="checkbox" id="modeToggle">
+            <label for="modeToggle"></label>
+        </div>
+        
+        <script>
+            const modeToggle = document.getElementById('modeToggle');
+            const body = document.body;
+        
+            modeToggle.addEventListener('change', () => {
+                if (modeToggle.checked) {
+                    body.classList.add('dark-mode');
+                } else {
+                    body.classList.remove('dark-mode');
+                }
+            });
+        </script>
+    
+           
+    </nav>
+    
+        
+    </section>
+ 
+    <!--movies---------------------------->
+    <div class="movies-heading">
+        <h2>Movies</h2>
+    </div>
+    <section id="movies-list">
+    
+        <div class="movies-box">
+        
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/OIP.jpeg"  alt="direct Image" id="directImage">
+            </div>
+            
+            <a href="test.html">
+                Pirates of the Caribbean Salazar's Revenge 
+            </a>
+     
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  
+                  var image = document.getElementById('directImage');
+            
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test.html');
+                  });
+                });
+           </script>
+
+
+            
+        </div>
+ 
+         <div class="movies-box">
+         
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/dumbledore.jpg" alt="Redirect Image" id="redirectImage">
+              </div>
+            
+            <a href="test2.html">
+                Fantastic Beasts:The Secrets of Dumbledore 
+            </a>
+            
+   
+              <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  
+                  var image = document.getElementById('redirectImage');
+            
+               
+                  image.addEventListener('click', function() {
+                  
+                    window.location.assign('test2.html');
+                  });
+                });
+              </script>
+                
+           
+           
+        </div>
+
+         <div class="movies-box">
+       
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/intersttaelar 3.jpg" alt="Redirect Image" id="inter">
+            </div>
+     
+            <a href="test3.html">
+                Interstellar
+            </a>
+          
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+          
+                  var image = document.getElementById('inter');
+            
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test3.html');
+                  });
+                });
+           </script>
+
+        </div>
+        
+         <div class="movies-box">
+        
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/spider.jpg" alt="Redirect Image" id="spider">
+            </div>
+            
+            <a href="test4.html">
+                Spider-Man: Into the Spider-Verse
+            </a>
+        
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                 
+                  var image = document.getElementById('spider');
+            
+              
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test4.html');
+                  });
+                });
+           </script>
+
+        </div>
+    
+         <div class="movies-box">
+        
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/passeger.jpeg" alt="Redirect Image" id="Passengers">
+            </div>
+         
+            <a href="#">
+                Passengers
+            </a>
+      
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                
+                  var image = document.getElementById('Passengers');
+            
+                
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test5.html');
+                  });
+                });
+           </script>
+        </div>
+    
+         <div class="movies-box">
+        
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/ironnman.jpg" alt="Redirect Image" id="ironman">
+            </div>
+         
+            <a href="#">
+                Ironman 3
+            </a>
+           
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+             
+                  var image = document.getElementById('ironman');
+            
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test6.html');
+                  });
+                });
+           </script>
+        </div>
+       
+         <div class="movies-box">
+        
+            <div class="movies-img">
+                <div class="quality">HD</div>
+                <img src="images/topgun love.jpg" alt="Redirect Image" id="topgun">
+            </div>
+           
+            <a href="#">
+                Top Gun Maverick 
+            </a>
+      
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+           
+                  var image = document.getElementById('topgun');
+            
+             
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test7.html');
+                  });
+                });
+           </script>
+       
+        </div>
+      
+         <div class="movies-box">
+        
+            <div class="movies-img"  alt="Redirect Image" id="lala">
+                <div class="quality">HD</div>
+                <img src="images/la la.jpg">
+            </div>
+       
+            <a href="#">
+                La La Land
+            </a>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                 
+                  var image = document.getElementById('lala');
+            
+               
+                  image.addEventListener('click', function() {
+                    
+                    window.location.assign('test8.html');
+                  });
+                });
+           </script>
+        </div>
+    </div>
+
+    <div class="movies-box">
+   
+       <div class="movies-img">
+           <div class="quality">HD</div>
+           <img src="images/trainupdated.jpeg"  alt="Redirect Image" id="busan">
+       </div>
+    
+       <a href="test9.html">
+        Train to Busan
+       </a>
+     
+       <script>
+        document.addEventListener('DOMContentLoaded', function() {
+         
+          var image = document.getElementById('busan');
+    
+         
+          image.addEventListener('click', function() {
+            
+            window.location.assign('test9.html');
+          });
+        });
+   </script>
+   </div>
+
+</div>
+
+    
+    </section>
+
+    <div class="feature-tab">
+        <div class="tab-header">
+            <h2>KingPlay Features</h2>
+            <ul>
+                <li class="tab-item active" data-tab="movies">Movies</li>
+                <li class="tab-item" data-tab="tv-shows">TV Shows</li>
+                <li class="tab-item" data-tab="originals">Originals</li>
+            </ul>
+        </div>
+        <div class="tab-content active" id="movies">
+            <h3>Watch Unlimited Movies</h3>
+            <p>Kingplay is an entertainment streaming service. Watch, comment & share the videos you love in our vast library of creative content. Start discovering now!</p>
+        </div>
+        <div class="tab-content" id="tv-shows">
+            <h3>Stream your Favourtie videos</h3>
+            <p>Discover your next obsession with our vast collection of Movies.</p>
+        </div>
+        <div class="tab-content" id="originals">
+            <h3>Exclusive Originals</h3>
+            <p>Get access to KingPlay's original content that you won't find anywhere else. From gripping dramas to hilarious comedies.</p>
+        </div>
+    </div>
+
+    <script>
+        const tabItems = document.querySelectorAll('.tab-item');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        function selectItem(e) {
+            removeBorder();
+            removeShow();
+            this.classList.add('active');
+            const tabContentItem = document.querySelector(`#${this.dataset.tab}`);
+            tabContentItem.classList.add('active');
+        }
+
+        function removeBorder() {
+            tabItems.forEach(item => item.classList.remove('active'));
+        }
+
+        function removeShow() {
+            tabContents.forEach(content => content.classList.remove('active'));
+        }
+
+        tabItems.forEach(item => item.addEventListener('click', selectItem));
+    </script>   
+
+   
+<!--btns--------------->
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+    <!--footer------------------>
+    <footer>
+        <p>kinglplay-video streamer</p>
+        <p>Copyright 2024 - kingplay-videostreamer</p>
+    </footer>
+
+
+    
+    
+          
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="js/redirect.js"></script>
+</body>
+</html>
+
