@@ -117,7 +117,7 @@ This project is for educational purposes only. Movie assets are used as placehol
 
 ---
 
-Made with ❤️ by [C MANOJ KUMAR] | [Live Demo](#) | [Report Bug](#)
+Made with ❤️ by [C MANOJ KUMAR] | [Live Demo](#https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/) | [Report Bug](#mk458557@gmail.com)
 ```
 
 
