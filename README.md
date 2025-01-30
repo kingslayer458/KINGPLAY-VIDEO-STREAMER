@@ -1,124 +1,77 @@
-# KINGPLAY-VIDEO-STREAMER
+Here's the refined README.md without those sections:
+
 ```markdown
-# 🎬 KingPlay Video Streamer
+# 🎬 KingPlay Video Streamer ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ![KingPlay Demo](https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/)
 
-A modern video streaming platform prototype with cinematic visuals and smooth animations. Built for movie enthusiasts!
+A modern open-source video streaming platform with secure AWS-powered infrastructure and offline viewing capabilities.
 
-## ✨ Features
+## ✨ Revolutionary Features
 
-- 🎥 Auto-playing hero section with cinematic trailer
-- 🌓 Smart dark/light mode toggle
-- 📱 Fully responsive design
-- 🎬 Movie poster hover animations
-- 🔍 Interactive search functionality
-- 📺 Dynamic feature tabs
-- 🖼️ HD quality indicators
-- 🎞️ Smooth page transitions
-
-## 🚀 Quick Start
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/kingplay-streamer.git
-cd kingplay-streamer
-```
-
-2. Open in browser:
-```bash
-open index.html  # Or double-click the file
-```
-
-## 🎮 Usage
-
-1. **Toggle Theme**  
-   Click the sun/moon icon in top-right to switch between dark/light modes
-
-2. **Browse Movies**  
-   Hover over movie posters for zoom effect  
-   Click posters to watch movies
-
-3. **Explore Features**  
-   Click through different content tabs (Movies, TV Shows, Originals)
-
-4. **Responsive Design**  
-   Resize browser or view on mobile devices for adaptive layout
+- 🌐 **AWS-Powered Streaming**
+  - S3 Bucket Storage
+  - CloudFront CDN Distribution
+  - Secure Content Delivery
+- 📥 **Offline Viewing**
+  - Download videos to local storage
+  - Progressive Web App (PWA) support
+- 🛡️ **Enterprise-Grade Security**
+  - HTTPS encryption
+  - Signed URLs for content protection
+- 🎥 **Premium Viewing Experience**
+  - Adaptive bitrate streaming
+  - Minimal buffering with CDN caching
+- 🌓 **Smart Theme System**
+  - Automatic dark/light mode
+  - Smooth theme transitions
 
 ## 🛠️ Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-- **Font Awesome Icons**  
-- **Google Fonts**  
-- **Cloud-hosted Videos**  
+## 🚀 Getting Started
 
-## 🎨 UI/UX Highlights
+### Prerequisites
+- AWS Account (for production deployment)
+- Node.js 16+ (for Electron build)
 
-### 🌓 Dark Mode Magic
-```css
-body.dark-mode {
-  background: #0a0a0a;
-  color: #fff;
-  transition: all 0.5s ease;
-}
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/kingslayer458/KINGPLAY-VIDEO-STREAMER.git
+cd KINGPLAY-VIDEO-STREAMER
+
+# Launch web version
+open index.html
+
+# For Electron desktop app
+npm install
+npm start
 ```
-Smooth color transitions with CSS animations
-
-### 🎥 Cinematic Hero Section
-Auto-playing fullscreen background video with overlay text
-
-### 🎬 Movie Grid Animation
-```css
-.movies-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-```
-Hover effects with scale transformation and shadow
-
-### 📱 Mobile-First Design
-```css
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-  .menu-btn {
-    display: block;
-  }
-}
-```
-Responsive hamburger menu for mobile devices
-
-## 📸 Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Light Mode](LIGHT.png) | ![Dark Mode](DARK.png) |
-
-## 🌟 Contributing
-
-Found a bug? Have a feature idea? Contributions welcome!
-1. Fork the project
-2. Create your branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📜 License
 
-Distributed under MIT License. See `LICENSE` for more information.
+MIT License - **Commercial Use Allowed** with proper attribution.  
+AWS services require separate subscription.
 
-## ⚠️ Disclaimer
+## ⚠️ Important Notice
 
-This project is for educational purposes only. Movie assets are used as placeholders. Please replace with licensed content for production use.
+This project demonstrates AWS integration patterns. For production use:
+- Replace placeholder content with licensed media
+- Rotate AWS credentials regularly
+- Implement proper user authentication
+- Add CloudFront signed cookies validation
 
 ---
 
-Made with ❤️ by [C MANOJ KUMAR] | [Live Demo](#https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/) | [Report Bug](#mk458557@gmail.com)
+🛠️ Built by [C Manoj Kumar] with 💖  
+🌍 [Live Demo](https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/)  
+📧 Contact: [mk458557@gmail.com]
 ```
 
-
-Would you like me to add any specific section or modify existing content? 😊
