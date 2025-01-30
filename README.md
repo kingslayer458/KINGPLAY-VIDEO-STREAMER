@@ -44,24 +44,15 @@ open index.html  # Or double-click the file
 4. **Responsive Design**  
    Resize browser or view on mobile devices for adaptive layout
 
-# For Electron desktop app
-npm install
-npm start
-```
-### Prerequisites
-- AWS Account (for production deployment)
-- Node.js 16+ (for Electron build)
-
 ## 🛠️ Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-
+- **Font Awesome Icons**  
+- **Google Fonts**  
+- **Cloud-hosted Videos**  
 
 ## 🎨 UI/UX Highlights
 
@@ -125,7 +116,6 @@ This project is for educational purposes only. Movie assets are used as placehol
 
 ---
 
-Made with ❤️ by [Your C MANOJ KUMAR] | 
+Made with ❤️ by [C MANOJ KUMAR] | [Live Demo](#) | [Report Bug](#)
 ```
-
 
