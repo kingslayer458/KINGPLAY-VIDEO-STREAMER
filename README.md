@@ -2,7 +2,7 @@
 ```markdown
 # 🎬 KingPlay Video Streamer
 
-![KingPlay Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHp0a2JhN2V0N3N4d2V0a2JmZ3Z5c3J0Z3l6d2RhdmN5b2V6c3R6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieS4jfHJaKwkeli/giphy.gif)
+![KingPlay Demo](https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/)
 
 A modern video streaming platform prototype with cinematic visuals and smooth animations. Built for movie enthusiasts!
 
