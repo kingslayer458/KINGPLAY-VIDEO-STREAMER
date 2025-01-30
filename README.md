@@ -31,11 +31,11 @@ open index.html  # Or double-click the file
 # For Electron desktop app
 npm install
 npm start
-
+```
 ### Prerequisites
 - AWS Account (for production deployment)
 - Node.js 16+ (for Electron build)
-
+```
 ## 🎮 Usage
 
 1. **Toggle Theme**  
@@ -107,6 +107,10 @@ Responsive hamburger menu for mobile devices
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![Light Mode](LIGHT.png) | ![Dark Mode](DARK.png) |
+
+| dashboard | streaming |
+|------------|-----------|
+| ![dashboard](d.png) | ![streaming](s.png) |
 
 ## 🌟 Contributing
 
