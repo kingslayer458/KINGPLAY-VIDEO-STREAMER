@@ -1,8 +1,6 @@
 
 # 🎬 KingPlay Video Streamer
 
-![KingPlay Demo](https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/index.html)
-
 A modern video streaming platform prototype with cinematic visuals and smooth animations. Built for movie enthusiasts!
 
 ## ✨ Features
