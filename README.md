@@ -96,7 +96,7 @@ Responsive hamburger menu for mobile devices
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](https://via.placeholder.com/400x250/FFFFFF/000000?text=Light+Mode) | ![Dark Mode](https://via.placeholder.com/400x250/000000/FFFFFF?text=Dark+Mode) |
+| ![Light Mode](LIGHT.png) | ![Dark Mode](DARK.PNG) |
 
 ## 🌟 Contributing
 
