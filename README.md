@@ -31,7 +31,7 @@ open index.html  # Or double-click the file
 # For Electron desktop app
 npm install
 npm start
-```
+
 ### Prerequisites
 - AWS Account (for production deployment)
 - Node.js 16+ (for Electron build)
