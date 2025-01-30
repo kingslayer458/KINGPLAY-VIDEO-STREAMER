@@ -1,7 +1,7 @@
 ```markdown
 # 🎬 KingPlay Video Streamer
 
-![KingPlay Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHp0a2JhN2V0N3N4d2V0a2JmZ3Z5c3J0Z3l6d2RhdmN5b2V6c3R6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieS4jfHJaKwkeli/giphy.gif)
+![KingPlay Demo](https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER/index.html)
 
 A modern video streaming platform prototype with cinematic visuals and smooth animations. Built for movie enthusiasts!
 
@@ -28,6 +28,13 @@ cd kingplay-streamer
 ```bash
 open index.html  # Or double-click the file
 ```
+# For Electron desktop app
+npm install
+npm start
+```
+### Prerequisites
+- AWS Account (for production deployment)
+- Node.js 16+ (for Electron build)
 
 ## 🎮 Usage
 
@@ -49,6 +56,10 @@ open index.html  # Or double-click the file
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 
 - **Font Awesome Icons**  
 - **Google Fonts**  
@@ -117,5 +128,5 @@ This project is for educational purposes only. Movie assets are used as placehol
 ---
 
 Made with ❤️ by [C MANOJ KUMAR] | [Live Demo](#) | [Report Bug](#)
-```
+
 
