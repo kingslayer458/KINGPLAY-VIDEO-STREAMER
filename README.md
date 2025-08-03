@@ -87,7 +87,7 @@ Auto-playing fullscreen background video with overlay text
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 ```
-Hover effects with scale transformation and shadow
+Hover effects with scale transformation and shadows
 
 ### 📱 Mobile-First Design
 ```css
